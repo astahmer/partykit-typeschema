@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "partykit deploy"
+    "dev": "partykit dev src/server.ts",
+    "deploy": "partykit deploy"
   },
   "keywords": [],
   "author": "",

@@ -4,6 +4,7 @@ import type {
   PartyKitRoom,
   PartyKitServer,
 } from "partykit/server";
+import { assertSchema } from "./reproduction";
 
 export default {
   async onConnect(
