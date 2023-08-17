@@ -3,6 +3,18 @@
   "main": "src/server.ts",
   "serve": {
     "path": "public",
-    "build": "src/client.tsx"
+    "build": {
+      "entry": "src/client.tsx",
+      "external": [
+        "partyrpc",
+        "@decs/typeschema",
+        "yup",
+        "@deepkit/type",
+        "fp-ts/Either",
+        "@sinclair/typebox/compiler",
+        "ow",
+        "valibot"
+      ]
+    }
   }
 }

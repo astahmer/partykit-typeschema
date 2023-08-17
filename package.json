@@ -17,6 +17,6 @@
     "valibot": "^0.12.0"
   },
   "devDependencies": {
-    "partykit": "0.0.0-f60434b"
+    "partykit": "0.0.0-df5c577"
   }
 }
